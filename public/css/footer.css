@@ -1,0 +1,110 @@
+/* footer定制样式 */
+.footer{
+    background: #e8e8e8;
+    min-width: 1190px;
+}
+.footer>.helpnav{
+    padding:24px 0;
+    /* text-align: center; */
+    width:1250px;
+    display:flex;
+    justify-content: space-around;
+    margin:auto;
+
+}
+.footer>.helpnav-list{
+    /* float:left; */
+    width:200px;height:170px;
+    margin:0 10px;
+    display: inline-block;
+}
+.footer>.helpnav-list>.helpnav-title{
+    width:200px;
+    height:40px;
+    line-height:40px;
+    color:#000;
+    font-size:16px;
+}
+.helpnav>.helpnav-list>ul{
+    margin-left:60px;
+    line-height: 26px;
+}
+.helpnav-list>.helpnav-title>i{
+    display: inline-block;
+    width:40px;height: 40px;
+    margin-right:15px;
+    vertical-align: middle;
+}
+
+.helpnav-list>.helpnav-title>i.footic1 { 
+    background: url(../img/footer/gouwuche.png) no-repeat center center;
+    background-size:40px 40px;
+}
+.helpnav-list>.helpnav-title>i.footic2 {
+    background: url(../img/footer/wuliupeisong.png) no-repeat center center;
+    background-size:40px 40px;
+}
+.helpnav-list>.helpnav-title>i.footic3 {
+    background: url(../img/footer/zhifufangshi.png) no-repeat center center !important;
+    background-size:40px 40px;
+}
+.helpnav-list>.helpnav-title>i.footic4 {
+    background: url(../img/footer/wuyoushouhou.png) no-repeat center center;
+    background-size:40px 40px;
+}
+.helpnav-list>.helpnav-title>i.footic5 {
+    background: url(../img/footer/shangjiarenzheng.png) no-repeat center center;
+    background-size:40px 40px;
+}
+.helpnav-list>ul>li>a{
+    color:#555555;
+    font-size: 13px;
+}
+.helpnav-list>ul>li>a:hover{
+    color:#ff3d3d;
+}
+
+.bottom-nav{
+    padding-top:15px;
+    width:1250px;
+    margin:auto;
+    text-align: center;
+}
+.bottom-nav>.contact>a{
+    font-size:12px;
+    color:#333;
+}
+.bottom-nav>.contact>span{
+    font-size:12px;
+    color:#333;
+    margin:0 10px;
+}
+.bottom-nav>.contact>a:hover{
+    color:#ff3d3d;
+}
+.bottom-nav>.copyright{
+    color:#999;
+    font-size:12px;
+    padding:5px 0;
+}
+.bottom-nav>.copyright>span{
+    margin:0 10px;
+}
+
+.bottom-nav>.drug-message>a{
+    font-size:12px;
+    color:#666;
+}
+.bottom-nav>.police{
+    padding:10px 0 20px 0;
+}
+.bottom-nav>.police>a>img{
+   width:20px;height:20px;
+   vertical-align: middle;
+}
+.bottom-nav>.police>a>span{
+    color:#666;
+    font-size:12px;
+    padding:0 8px;
+    margin-right:5px;
+ }

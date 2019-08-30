@@ -1,0 +1,40 @@
+/*css reset*/
+body,html,ul,li,p,h1,h2,h3,h4,h5,h6,div{
+    margin:0;padding:0;
+    box-sizing: border-box;
+    font: 12px;
+    color: #666;
+}
+
+ul{list-style: none}
+
+a{text-decoration: none;}
+a:hover{cursor: pointer;}
+.d-f{
+    display:flex;
+    flex-wrap: wrap;
+}
+.clear:before,.clear:after{
+    display: table;
+	content: "";
+	line-height: 0
+} 
+.clear:after {
+	clear: both
+}
+
+.py-container{
+	width: 1250px;
+	margin: 0 auto
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+i,em,strong{
+    font-style: normal !important;
+    font-size:12px;
+    color:#333;
+}
